@@ -1,6 +1,4 @@
-const { model } = require("mongoose");
-
-const mongoose = requiere ('mongoose');
+const mongoose = require ('mongoose');
 
 const ProductLLVGShema = new mongoose.Schema({
     nombreLLVG:{type:String, required:true},
@@ -9,4 +7,4 @@ const ProductLLVGShema = new mongoose.Schema({
 });
 
 const ProductLLVG = mongoose.model('ProductLLVG', ProductLLVGShema);
-modelu.exports = ProductLLVG; 
+module.exports = ProductLLVG; 

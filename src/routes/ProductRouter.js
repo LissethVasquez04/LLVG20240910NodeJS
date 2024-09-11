@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const ProductLLVGController = require('../controllers/ProductLLVGController'); // Asegúrate de que la ruta sea correcta
+const ProductLLVGController = require('../controllers/ProductController'); // Asegúrate de que la ruta sea correcta
 
 // Definir las rutas
 router.get('/', ProductLLVGController.getAllProducts); // Asegúrate de que getAllProducts esté definido en el controlador
